@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+
+.hero-bd{
+background:#307D99;
+
+text-align: center;
+padding-bottom: 4em;
+font-size: bold;
+color: white;
+}
+header {
+    padding: 1em 0;
+}
+
+ a  {
+color: white;
+font-weight: bold;
+}
+h1{
+    font-size: 2.5rem;
+    margin: 2em 0 1.2em;
+}
+h1 span{
+    text-transform: uppercase;
+    display:block ;
+    font-size: 1.4rem;
+}
+
+.form-container{
+    background-color: white;
+    margin: 2em -1em 0;
+    padding: 2em;
+}
+label{
+    color:#307D99;
+    font-weight:bold ;
+    display: block;
+    margin: 1em;
+    font-size: 1.2em;
+}
+input[type=text]{
+    border: 1px solid gray;
+    border-radius: .5em;
+    width: 100%;
+    padding: 1em;
+    margin-top: 1.2em;
+}
+.form-container p{
+    color: gray;
+    font-weight:normal;
+    font-size: .9em;
+    margin-bottom: 1.5em;
+}
+input[type=button]{
+    background-color: #F89104;
+    border: none;
+    width: 100%;
+    padding :1em;
+    font-weight: bold;
+    color: white;
+    border-radius: .5em;
+    font-size: 1.3em;
+    cursor: pointer;
+
+}
+input[type=button]:hover{
+    background-color: #b66b02;
+    font-weight: normal;
+}
+.authentic{
+margin: 0;
+}
+img{
+    width:100%;
+}
+.right-col{
+    text-align: center;
+    margin: 3em 1em;
+}
+h2{
+    text-transform: uppercase;
+}
+
+
+p{
+    line-height: 2em;
+}
+@media(min-width: 730px){
+    section{
+        margin:0 3em ;
+    }
+    .form-container{
+        margin: 2em -2em 0;
+    }
+    header{
+        margin: 0 0 0 3em;
+    }
+}
+@media(min-width: 930px){
+    .hero-bd{
+        text-align: left;
+    
+        margin: 0 0 3em;
+    }
+    p{
+        
+        margin: 0 0 3em;
+    }
+    section{
+        width: 65%;
+    }
+    .form-container{
+        margin: 2em 0 0;
+        padding: 2em ;
+        box-shadow: 10px 10px 10px rgba(0,0,0,.3);
+        border-radius: .5em;
+    }
+    form{
+        display: flex;
+    }
+    .form-left{
+        width: 70%;
+    }
+    label{
+        margin: 0;
+    }
+    input[type=button]{
+        height: fit-content;
+        font-size: 1.1em;
+        margin-top: 2.2em;
+        margin-left: 1em;
+        padding: .7em 0;
+        width: 30%;
+    }
+    
+   .hero-bd p{
+       margin-bottom: 0;
+   }
+    section.authentic{
+        display: grid;
+        grid-template-columns:repeat(2,80%);
+    }
+    .authentic{
+        margin-top: 0;
+    }
+    img{
+        margin: 0;
+    }
+}
